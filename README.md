@@ -115,17 +115,23 @@ plt=sns.boxplot(x='Pclass',y='Age',hue='Gender',data=df)
 <img width="803" height="613" alt="image" src="https://github.com/user-attachments/assets/66972409-cb33-4b28-aade-b645bb6ffe23" />
 
 ```
+
 import seaborn as sns
 sns.catplot(x='Pclass',y="Age",hue="Gender",col="Survived",kind="box",data=df)
 ```
 <img width="1385" height="720" alt="image" src="https://github.com/user-attachments/assets/f8e8f957-aef8-40f8-a1b9-45795d2bbbeb" />
 
 ```
+
+
 sns.catplot(data=df,col="Survived",x="Gender",hue='Pclass',kind="count")
 ```
 <img width="1378" height="702" alt="image" src="https://github.com/user-attachments/assets/ea28f9be-c44a-42ce-8487-9bb9518470ff" />
 
 ```
+
+
+
 corr=df.corr(numeric_only=True)
 sns.heatmap(corr,annot=True)
 
@@ -133,7 +139,6 @@ sns.heatmap(corr,annot=True)
 <img width="733" height="675" alt="image" src="https://github.com/user-attachments/assets/f862c560-916f-47cc-a6f7-0ed4ff70105e" />
 
 ```
-
 
 # RESULT
         THUS THE PROGRAM IS EXECUTED SUCCCESSFULLY
