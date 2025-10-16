@@ -133,13 +133,7 @@ sns.heatmap(corr,annot=True)
 <img width="733" height="675" alt="image" src="https://github.com/user-attachments/assets/f862c560-916f-47cc-a6f7-0ed4ff70105e" />
 
 ```
-corr=df.select_dtypes(include=np.number).corr()
-sns.heatmap(corr,annot=True)
-```
-![Uploading image.png…]()
-
-
 
 
 # RESULT
-        <<INCLUDE YOUR RESULT HERE>>
+        THUS THE PROGRAM IS EXECUTED SUCCCESSFULLY
